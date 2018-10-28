@@ -57,7 +57,10 @@ Descargate [laragon](https://sourceforge.net/projects/laragon/):
 -Ahora en el terminal corre:php migrate
 -Fin.
 
-Imagenes de muestra que este proyecto funciona en el directorio :"public/imagees"
+Imagenes de muestra que este proyecto funciona en el directorio :"public/images"
 
+![Alt text](public/images/fin.PNG?raw=true "Fin")
 Exitos!
 Cualquier consulta mi email es jairo.laupa@gmail.com
+
+<small>Fecha28/10/2018__Hora inicio: 17horas , Hora de finalización:19:18</small>
