@@ -36,13 +36,28 @@ corremos los siguientes comandos en la consola:
 - sudo chmod -R 777 storage
 
 creamos la base de datos con nombre: alquilando2
-y configuramos la url virtual en apache2 con la siguiente url : apirestful.test
+y configuramos la url virtual en apache2 con la siguiente url : apirestful.test (*)
 continuamos: 
 -php artisan migrate
 
 y listo, ya tendriamos que poder la API
 ejecutando la url : http://apirestful.test/api/docs
-![Alt text](rpublic/images/leer_Doc_Api.PNG?raw=true "Api Doc")
+![Alt text](public/images/leer_Doc_Api.PNG?raw=true "Api Doc")
 
+En el caso de que uses windows y no tengas linux a disposicion con todos los requerimientos de laravel.Puedes probar el siguiente metodo rapido!
+Descargate [laragon](https://sourceforge.net/projects/laragon/):
+-Inicializalo
+-Abre el terminal de laragon
+-posicionate en ...\laragon\www
+-Realiza el git clone https://github.com/miamius/APIRESTFul.git
+-Deten el servicio (boton "detener") y vuelvelo a iniciar
+-Abre el terminal de nuevo, dirigete a la carpeta apirestful
+-corre: composer install, chmod -R 777 storage
+-crea un base de datos con el nombre :alquilando2
+-Ahora en el terminal corre:php migrate
+-Fin.
 
+Imagenes de muestra que este proyecto funciona en el directorio :"public/imagees"
 
+Exitos!
+Cualquier consulta mi email es jairo.laupa@gmail.com
