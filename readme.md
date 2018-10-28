@@ -48,16 +48,16 @@ ejecutando la url : http://apirestful.test/api/docs
 
 En el caso de que uses windows y no tengas linux a disposición con todos los requerimientos de laravel.Puedes probar el siguiente método rápido!
 Descárgate [laragon](https://sourceforge.net/projects/laragon/):
--Inicializalo
--Abre el terminal de laragon
--posicionate en ...\laragon\www
--Realiza el git clone https://github.com/miamius/APIRESTFul.git
--Detén el servicio(boton "detener") y vuelvelo a iniciar
--Abre el terminal de nuevo, dirigete a la carpeta apirestful
--corre: composer install, chmod -R 777 storage
--crea un base de datos con el nombre :alquilando2
--Ahora en el terminal corre:php migrate
--Fin.
+- Inicializalo
+- Abre el terminal de laragon
+- posicionate en ...\laragon\www
+- Realiza el git clone https://github.com/miamius/APIRESTFul.git
+- Detén el servicio(boton "detener") y vuelvelo a iniciar
+- Abre el terminal de nuevo, dirigete a la carpeta apirestful
+- corre: composer install, chmod -R 777 storage
+- crea un base de datos con el nombre :alquilando2
+- Ahora en el terminal corre:php migrate
+- Fin.
 
 Imagenes de muestra que este proyecto funciona: directorio "public/images"
 
