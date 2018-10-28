@@ -45,6 +45,7 @@ ejecutando la url : http://apirestful.test/api/docs
 ![Alt text](public/images/leer_Doc_Api.PNG?raw=true "Api Doc")
 
 ============================================================================
+
 En el caso de que uses windows y no tengas linux a disposición con todos los requerimientos de laravel.Puedes probar el siguiente método rápido!
 Descárgate [laragon](https://sourceforge.net/projects/laragon/):
 -Inicializalo
