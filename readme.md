@@ -20,10 +20,10 @@ Endpoints necesarios:
 -	PUT /users/{user_id} (Actualiza el usuario de id {user_id})
 -	DELETE /users/{user_id} (Elimina el usuario de id {user_id})
 
-## Instalacion del proyecto
+## Instalación del proyecto
 
-Se uso el framework laravel([documentation](https://laravel.com/docs)) con tecnologias como InfyOm ([documentation](http://labs.infyom.com/laravelgenerator/docs/5.7/introduction) ).
-<small>Aqui dejo un [link](https://www.powtoon.com/online-presentation/cVOdUOilMHo/?mode=presentation) para ver de que se trata. </small>
+Se usó el framework laravel([documentation](https://laravel.com/docs)) con tecnologías como InfyOm ([documentation](http://labs.infyom.com/laravelgenerator/docs/5.7/introduction) ).
+<small>Aquí dejo un [link](https://www.powtoon.com/online-presentation/cVOdUOilMHo/?mode=presentation) para ver de qué se trata. </small>
 
 ##Iniciando instalación
 
@@ -40,27 +40,28 @@ y configuramos la url virtual en apache2 con la siguiente url : apirestful.test 
 continuamos: 
 -php artisan migrate
 
-y listo, ya tendriamos que poder la API
+y listo, ya tendriamos que poder ver la API corriendo.
 ejecutando la url : http://apirestful.test/api/docs
 ![Alt text](public/images/leer_Doc_Api.PNG?raw=true "Api Doc")
 
-En el caso de que uses windows y no tengas linux a disposicion con todos los requerimientos de laravel.Puedes probar el siguiente metodo rapido!
-Descargate [laragon](https://sourceforge.net/projects/laragon/):
+============================================================================
+En el caso de que uses windows y no tengas linux a disposición con todos los requerimientos de laravel.Puedes probar el siguiente método rápido!
+Descárgate [laragon](https://sourceforge.net/projects/laragon/):
 -Inicializalo
 -Abre el terminal de laragon
 -posicionate en ...\laragon\www
 -Realiza el git clone https://github.com/miamius/APIRESTFul.git
--Deten el servicio (boton "detener") y vuelvelo a iniciar
+-Detén el servicio(boton "detener") y vuelvelo a iniciar
 -Abre el terminal de nuevo, dirigete a la carpeta apirestful
 -corre: composer install, chmod -R 777 storage
 -crea un base de datos con el nombre :alquilando2
 -Ahora en el terminal corre:php migrate
 -Fin.
 
-Imagenes de muestra que este proyecto funciona en el directorio :"public/images"
+Imagenes de muestra que este proyecto funciona: directorio "public/images"
 
 ![Alt text](public/images/fin.PNG?raw=true "Fin")
-Exitos!
+Éxitos!
 Cualquier consulta mi email es jairo.laupa@gmail.com
 
 <small>Fecha28/10/2018__Hora inicio: 17horas , Hora de finalización:19:18</small>
