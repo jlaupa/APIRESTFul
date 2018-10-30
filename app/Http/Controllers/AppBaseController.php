@@ -7,7 +7,7 @@ use Response;
 
 /**
  * @SWG\Swagger(
- *   basePath="/api/v1",
+ *   basePath="/",
  *   @SWG\Info(
  *     title="Laravel Generator APIs",
  *     version="1.0.0",
